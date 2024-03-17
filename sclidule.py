@@ -70,11 +70,21 @@ def mostrarHorario(usuario, contrasena, codigo):
 def main():
     # If the file credentials exist extract the credentials
     if os.path.exists("credentials.txt"):
-        with open("credentials.txt", "r") as file:
-            credentials = file.readlines()
-            usuario = credentials[0].strip()
-            contrasena = credentials[1].strip()
-            codigo = credentials[2].strip()
+        # Ask the user if he wants to change credentials
+        # or use the ones in the file
+        change = input("¿Desea cambiar las credenciales? (s/n): ")
+        if change == "s":
+            usuario = input("Ingrese su usuario: ")
+            contrasena = input("Ingrese su contraseña: ")
+            codigo = input("Ingrese su código: ")
+            with open("credentials.txt", "w") as file:
+                file.write(f"{usuario}\n{contrasena}\n{codigo}")
+        else:
+            with open("credentials.txt", "r") as file:
+                credentials = file.readlines()
+                usuario = credentials[0].strip()
+                contrasena = credentials[1].strip()
+                codigo = credentials[2].strip()
     else:
         usuario = input("Ingrese su usuario: ")
         contrasena = input("Ingrese su contraseña: ")

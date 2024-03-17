@@ -30,6 +30,4 @@ Este proyecto se distribuye bajo la licencia GNUGPL v3.
 
 ## Autor
 
-Este proyecto fue creado por Aiker Ary.
-
-- GitHub: [https://github.com/aikerary/](https://github.com/aikerary/)
+Este proyecto fue creado por [Aiker Ary](https://github.com/aikerary/).

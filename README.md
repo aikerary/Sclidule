@@ -20,6 +20,10 @@ Este proyecto es una herramienta para la gestión de horarios en Linux.
 
 1. Ejecute la aplicación en la terminal.
 
+    ```bash
+    sclidule
+    ```
+
 2. Ingrese su usuario, contraseña y código estudiantil cuando se le solicite.
 
 3. Seleccione el semestre que desea visualizar. Se recomienda utilizar la pantalla completa en la terminal para una mejor experiencia.

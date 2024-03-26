@@ -31,10 +31,10 @@ def mostrarHorario(usuario, contrasena, codigo):
     sections = root["terms"][seleccionSemestre]["sections"]
 
     # Crear una matriz para almacenar la información de las clases
-    horario = [["Hora", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado", "Domingo"]]
+    horario = [["Hora", "Lunes", "Martes", "Miércoles", "Jueves", "Viernes", "Sábado"]]
 
     for i in range(1, 15):
-        horario.append([f"{6 + i - 1}:30-{6+i}:30", "", "", "", "", "", "", ""])
+        horario.append([f"{6 + i - 1}:30-{6+i}:30", "", "", "", "", "", ""])
 
     # Llenar la matriz con la información de las clases
     for section in sections:

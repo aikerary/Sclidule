@@ -1,28 +1,32 @@
-# Proyecto Sclidule-Linux
+# Proyecto Sclidule
 
-Este proyecto es una herramienta para la gestión de horarios en Linux.
+Este proyecto es una herramienta para la gestión de horarios de los estudiantes de uninorte a través de la terminal.
 
-## Instalación
+---
+
+## Linux
+
+### Instalación
 
 1. Otorgar permisos de ejecución al archivo `installation.sh` utilizando el siguiente comando en la terminal:
-
-    ```bash
-    chmod +x installation.sh
-    ```
+   
+   ```bash
+   chmod +x installation.sh
+   ```
 
 2. Ejecutar el archivo `installation.sh` como superusuario utilizando el siguiente comando:
+   
+   ```bash
+   sudo ./installation.sh
+   ```
 
-    ```bash
-    sudo ./installation.sh
-    ```
-
-## Uso
+### Uso
 
 1. Ejecute la aplicación en la terminal.
-
-    ```bash
-    sclidule
-    ```
+   
+   ```bash
+   sclidule
+   ```
 
 2. Ingrese su usuario, contraseña y código estudiantil cuando se le solicite.
 

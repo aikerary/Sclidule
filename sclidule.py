@@ -50,6 +50,8 @@ def mostrarHorario(usuario, contrasena, codigo):
                 horaFin= int(endTime[:2]) -10
             columnas={1:7, 2:1, 3:2, 4:3, 5:4, 6:5, 7:6}
             columna=columnas[dayOfWeek]
+            if columna==7:
+                continue
             newlist=list(x for x in range(horaInicio, horaFin))
             for hora in newlist:
                 horario[hora][columna] = sectionTitle

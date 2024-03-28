@@ -56,7 +56,7 @@ def mostrarHorario(usuario, contrasena, codigo):
             for hora in newlist:
                 horario[hora][columna] = sectionTitle
     # Clear the console
-    os.system('clear')
+    os.system('cls')
     # Get the width of the console
     console_width = os.get_terminal_size().columns
 

@@ -95,6 +95,7 @@ def main():
             file.write(f"{usuario}\n{contrasena}\n{codigo}")
     mostrarHorario(usuario, contrasena, codigo)
 
-if __name__ == "__main__":
-    main()
+while True:
+    if __name__ == "__main__":
+        main()
 
